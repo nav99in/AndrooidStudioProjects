@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/mast"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/MyCustomToolBarTheme"
+        app:popupTheme="@style/MyCustomPopupTheme" />
+
+    <CheckBox
+        android:id="@+id/mycheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="23sp"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="610dp"
+        android:text="Start Contextual Action Bar" />
+
+</RelativeLayout>
